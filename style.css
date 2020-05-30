@@ -1,0 +1,66 @@
+body{
+    background-color: #943126  ;
+}
+section{
+    text-align: center;
+}
+img{
+    display: none;
+}
+.app{
+    border: 1px black solid;
+    background-color:#BEBEBE;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 80px;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    border: solid 1px black;
+    font-family: 'DM Mono', monospace;
+}
+.btn:hover{
+    background-color:#2C3E50 ;
+    color: white;
+}
+
+
+.btn-right{
+    margin-left: 100px;
+}
+
+.nav-bar{
+    text-align: center;
+    height: 90px;
+    background-color:#2C3E50 ;
+    color:#943126   ;
+    font-family: 'DM Mono', monospace;
+}
+
+h5,h4{
+    font-family: 'DM Mono', monospace;
+}
+
+.container{
+    text-align: center;
+}
+
+footer{
+    background-color:#2C3E50 ;
+    color: white;
+}
+
+.final2{
+    background-color: #2C3E50 ;
+    color: white;
+}
+
+.myCanvas{
+    background-color: black;
+}
+
+#copyright{
+    font-size: small;
+    padding: 5px;
+}

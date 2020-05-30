@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Devil's Playground</title>
+</head>
+<body class="container">
+    <nav class="nav-bar"><h2>Devil's Playground</h2> </nav>
+    <h5>Associate with the Devil and steal innocent mortal souls. Steal 60 souls before the count down reaches 0.</h5>
+    <h4 id="final">The Devil deals it hard. Let's see if you can deal harder.</h4>
+    <div><h4>Count Down : <span id="countDown" ></span></h4></div>
+    <div><h4 >Souls : <span id="score"></span></h4></div>
+    <canvas class="app" height='400px' width='320px'></canvas><br/>
+<section>
+    <button class="btn" onclick="keyScreenHandler(38)"> Up </button><br>
+    <button class="btn btn-left" onclick="keyScreenHandler(37)"> Left </button>
+    <button class="btn btn-right" onclick="keyScreenHandler(39)"> Right </button><br>
+    <button class="btn" onclick="keyScreenHandler(40)"> Down </button><br>
+</section>
+
+<footer><P id="copyright">Copyright by &copy 66baphomet</P></footer>
+    <script src="app.js"></script>
+</body>
+</html>
